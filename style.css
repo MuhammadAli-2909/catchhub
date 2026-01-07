@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .container {
     display: flex;
     flex-direction: column;
@@ -22,107 +23,122 @@
     align-items: center;
     flex: 1;
 }
-h3{
+
+h3 {
     letter-spacing: 3px;
     font-size: 22px;
     margin-bottom: 3px;
 }
-p{
+
+p {
     color: gray;
     text-align: center;
 }
-.download{
+
+.download {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 50px 0;
     gap: 5px;
 }
-.channel{
+
+.channel {
     margin-top: 40px;
     display: flex;
-    gap: 10px;
+    gap: 80px;
     justify-content: center;
     align-items: center;
 }
-.channel .mobiles{
+
+.channel .mobiles {
     width: 400px;
-    flex: 1;
 }
-.channel .side2{
-    flex: 1;
+
+.channel .side2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 450px;
 }
-.channel .side2 h3{
+
+.channel .side2 h3 {
     font-size: 28px;
     margin-bottom: 20px;
 }
-.channel .side2 p{
+
+.channel .side2 p {
     font-size: 24px;
 }
-.message{
+
+.message {
     display: flex;
-    gap: 10px;
+    gap: 60px;
     position: relative;
     top: -60px;
 }
-.message .side1{
+
+.message .side1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 400px;
     margin-left: 50px;
-    flex: 1;
 }
-.message .side1 h3{
+
+.message .side1 h3 {
     font-size: 28px;
     margin-bottom: 20px;
 }
-.message .side1 p{
+
+.message .side1 p {
     font-size: 24px;
 }
-.message .mobiles{
+
+.message .mobiles {
     width: 400px;
-    flex: 1;
 }
-.future{
+
+.future {
     display: flex;
     gap: 8px;
     align-items: start;
     position: relative;
     top: -60px;
 }
-.future .mobiles{
-    flex: 1;
+
+.future .mobiles {
     width: 400px;
 }
-.future .side2{
-    flex: 1;
+
+.future .side2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 350px;
 }
-.future .side2 .vec{
+
+.future .side2 .vec {
     width: 420px;
     margin-bottom: 30px;
     margin-top: 77px;
     position: relative;
     right: 55px;
 }
-.future .side2 h3{
+
+.future .side2 h3 {
     font-size: 27px;
     margin-bottom: 20px;
 }
-.future .side2 p{
+
+.future .side2 p {
     font-size: 22px;
 }
-.footer{
+
+.footer {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -132,20 +148,25 @@ p{
     position: relative;
     top: -40px;
 }
-.footer p{
+
+.footer p {
     color: black;
 }
-.footer .download{
+
+.footer .download {
     margin: 20px 0 40px 0;
 }
-.footer .anchor{
+
+.footer .anchor {
     font-size: 14px;
 }
-.footer .anchor a{
+
+.footer .anchor a {
     color: lightskyblue;
     text-decoration: none;
 }
-.peratude{
+
+.peratude {
     position: relative;
     top: 30px;
 }
