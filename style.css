@@ -34,15 +34,16 @@ h3 {
 p {
     color: rgb(171, 171, 171);
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 29px;
+    letter-spacing: 1px;
 }
 
 .app p {
     color: rgb(170, 170, 170);
     text-align: center;
-    font-size: 20px;
-    margin-right: 55px;
+    font-size: 18px;
+    margin-right: 50px;
 }
 
 .download {
@@ -85,7 +86,7 @@ p {
 }
 
 .channel .side2 p {
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .message {
@@ -144,19 +145,13 @@ p {
     right: 55px;
 }
 
-.future .side2 h3,
-.future .side2 p {
-    position: relative;
-    right: 20px;
-}
-
 .future .side2 h3 {
-    font-size: 27px;
+    font-size: 22px;
     margin-bottom: 20px;
 }
 
 .future .side2 p {
-    width: 300px;
+    width: 350px;
     font-size: 22px;
 }
 
